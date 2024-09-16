@@ -7,7 +7,6 @@ import {
   TouchableOpacity,
   TouchableWithoutFeedback,
   Keyboard,
-  Alert,
   ScrollView,
 } from 'react-native';
 import React, {useState} from 'react';
@@ -19,7 +18,6 @@ import {styles} from '../styles/loginSignUpStyle';
 import ErrorText from '../components/ErrorText';
 import colors from '../config/colors';
 import {isEmailValid, validateEmail} from '../utils/validation';
-import auth from '@react-native-firebase/auth';
 import MyIndicator from '../components/MyIndicator copy';
 import {useNavigation} from '@react-navigation/native';
 import navigationStrings from '../routes/navigationStrings';
