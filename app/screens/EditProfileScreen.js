@@ -39,7 +39,9 @@ export default function EditProfileScreen() {
           <Image source={require('../assets/arrow.png')} style={styles.back} />
         </TouchableOpacity>
         <Text style={styles.headerHeading}>Edit Profile</Text>
-        <TouchableOpacity style={styles.backContainer}>
+        <TouchableOpacity
+          style={styles.backContainer}
+          onPress={() => navigation.navigate('MyTestingScreen')}>
           <Text style={styles.doneTxt}>Done</Text>
         </TouchableOpacity>
       </View>

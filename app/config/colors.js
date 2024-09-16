@@ -17,4 +17,5 @@ export default {
   green: '#53B175',
   gWhite: '#FCFCFC',
   gGray: '#828282',
+  pink: '#EA71D9',
 };

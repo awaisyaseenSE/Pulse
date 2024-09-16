@@ -6,6 +6,7 @@ import SettingScreen from '../screens/SettingScreen';
 import EditProfileScreen from '../screens/EditProfileScreen';
 import GWelcomeScreen from '../screens/GroceryApp/GWelcomeScreen';
 import TestingScreen from '../screens/TestingScreen';
+import MyTestingScreen from '../screens/MyTestingScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -37,6 +38,11 @@ function AppNavigator() {
       <Stack.Screen
         name="TestingScreen"
         component={TestingScreen}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="MyTestingScreen"
+        component={MyTestingScreen}
         options={{headerShown: false}}
       />
     </Stack.Navigator>
