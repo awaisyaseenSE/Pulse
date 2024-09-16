@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "97895662",
+    "project_id": "pulseapp-92d1a",
+    "storage_bucket": "pulseapp-92d1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97895662:android:2a829fc53b4dddf4ae5fff",
+        "android_client_info": {
+          "package_name": "com.pulse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaKJYSbzdmLbBRLHJr3OzYsFQZSahL78w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
